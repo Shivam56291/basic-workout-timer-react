@@ -1,55 +1,61 @@
-# 🏋️‍♂️ React Workout Timer  
+# 🏋️‍♂️ React Workout Timer
 
-A **dynamic and intuitive workout timer** built with React. This application lets you plan and calculate the total duration of your workout based on the type of exercise, number of sets, speed, and break duration. It even adjusts workout options depending on the **time of day (AM/PM)**.  
+A **dynamic and intuitive workout timer** built with React. This application lets you plan and calculate the total duration of your workout based on the type of exercise, number of sets, speed, and break duration. It even adjusts workout options depending on the **time of day (AM/PM)**.
 
-🌐 **Live Demo** → [Workout Timer on Netlify](https://fancy-pothos-882a2a.netlify.app/)  
+🌐 **Live Demo** → [Workout Timer on Netlify](https://app.netlify.com/projects/basic-workout-timer-reactpractice/configuration/general)
 
-📂 **Source Code** → [GitHub Repository](https://github.com/Shivam56291/basic-workout-timer-react)  
-
----
-
-## ✨ Features  
-
-- **Dynamic Workout Plans**  
-  - Adjusts exercises automatically depending on **AM or PM**  
-  - Example: "Full-body workout" has 9 exercises in the morning, 8 in the evening  
-
-- **Customizable Sessions**  
-  - Choose type of workout (Full-body, Arms + Legs, Core, etc.)  
-  - Select number of sets (1–5)  
-  - Adjust exercise speed (30s – 180s per exercise)  
-  - Set break duration between sets (1–10 mins)  
-
-- **Real-time Duration Calculation**  
-  - Workout time updates instantly as you tweak inputs  
-
-- **Manual Adjustment**  
-  - Fine-tune workout duration with `+` and `–` buttons  
-
-- **Sound Effects**  
-  - Optional **click sound** when workout duration updates  
-
-- **Extras**  
-  - Live clock (`time updates every second`)  
-  - Dynamic page title (e.g., "Your 8-exercise workout")  
+📂 **Source Code** → [GitHub Repository](https://github.com/Shivam56291/basic-workout-timer-react)
 
 ---
 
-## 🛠️ Tech Stack  
+## ✨ Features
 
-- [React.js](https://reactjs.org/) – Components, hooks (`useState`, `useEffect`, `useMemo`)  
-- JavaScript (ES6+) – Core app logic  
-- HTML5 & CSS3 – Layout and styling  
-- [Netlify](https://www.netlify.com/) – Hosting  
+- **Dynamic Workout Plans**
+
+  - Adjusts exercises automatically depending on **AM or PM**
+  - Example: "Full-body workout" has 9 exercises in the morning, 8 in the evening
+
+- **Customizable Sessions**
+
+  - Choose type of workout (Full-body, Arms + Legs, Core, etc.)
+  - Select number of sets (1–5)
+  - Adjust exercise speed (30s – 180s per exercise)
+  - Set break duration between sets (1–10 mins)
+
+- **Real-time Duration Calculation**
+
+  - Workout time updates instantly as you tweak inputs
+
+- **Manual Adjustment**
+
+  - Fine-tune workout duration with `+` and `–` buttons
+
+- **Sound Effects**
+
+  - Optional **click sound** when workout duration updates
+
+- **Extras**
+  - Live clock (`time updates every second`)
+  - Dynamic page title (e.g., "Your 8-exercise workout")
 
 ---
 
-## 🚀 Getting Started  
+## 🛠️ Tech Stack
 
-Follow these steps to set up the project locally:  
+- [React.js](https://reactjs.org/) – Components, hooks (`useState`, `useEffect`, `useMemo`)
+- JavaScript (ES6+) – Core app logic
+- HTML5 & CSS3 – Layout and styling
+- [Netlify](https://www.netlify.com/) – Hosting
 
-### Prerequisites  
-Make sure you have **Node.js** (which includes npm) installed.  
+---
+
+## 🚀 Getting Started
+
+Follow these steps to set up the project locally:
+
+### Prerequisites
+
+Make sure you have **Node.js** (which includes npm) installed.
 
 ```bash
 node -v
@@ -93,3 +99,4 @@ basic-workout-timer-react/
 │   └── index.css          # Styling
 │
 └── package.json
+```
