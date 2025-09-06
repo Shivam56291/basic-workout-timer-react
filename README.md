@@ -2,7 +2,7 @@
 
 A **dynamic and intuitive workout timer** built with React. This application lets you plan and calculate the total duration of your workout based on the type of exercise, number of sets, speed, and break duration. It even adjusts workout options depending on the **time of day (AM/PM)**.
 
-🌐 **Live Demo** → [Workout Timer on Netlify](https://app.netlify.com/projects/basic-workout-timer-reactpractice/configuration/general)
+🌐 **Live Demo** → [Workout Timer on Netlify](https://app.netlify.com/projects/basic-workout-timer-reactpractice/configuration/general)  
 
 📂 **Source Code** → [GitHub Repository](https://github.com/Shivam56291/basic-workout-timer-react)
 
