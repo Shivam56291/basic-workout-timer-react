@@ -1,70 +1,95 @@
-# Getting Started with Create React App
+# 🏋️‍♂️ React Workout Timer  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A **dynamic and intuitive workout timer** built with React. This application lets you plan and calculate the total duration of your workout based on the type of exercise, number of sets, speed, and break duration. It even adjusts workout options depending on the **time of day (AM/PM)**.  
 
-## Available Scripts
+🌐 **Live Demo** → [Workout Timer on Netlify](https://fancy-pothos-882a2a.netlify.app/)  
 
-In the project directory, you can run:
+📂 **Source Code** → [GitHub Repository](https://github.com/Shivam56291/basic-workout-timer-react)  
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ✨ Features  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Dynamic Workout Plans**  
+  - Adjusts exercises automatically depending on **AM or PM**  
+  - Example: "Full-body workout" has 9 exercises in the morning, 8 in the evening  
 
-### `npm test`
+- **Customizable Sessions**  
+  - Choose type of workout (Full-body, Arms + Legs, Core, etc.)  
+  - Select number of sets (1–5)  
+  - Adjust exercise speed (30s – 180s per exercise)  
+  - Set break duration between sets (1–10 mins)  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Real-time Duration Calculation**  
+  - Workout time updates instantly as you tweak inputs  
 
-### `npm run build`
+- **Manual Adjustment**  
+  - Fine-tune workout duration with `+` and `–` buttons  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Sound Effects**  
+  - Optional **click sound** when workout duration updates  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Extras**  
+  - Live clock (`time updates every second`)  
+  - Dynamic page title (e.g., "Your 8-exercise workout")  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🛠️ Tech Stack  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [React.js](https://reactjs.org/) – Components, hooks (`useState`, `useEffect`, `useMemo`)  
+- JavaScript (ES6+) – Core app logic  
+- HTML5 & CSS3 – Layout and styling  
+- [Netlify](https://www.netlify.com/) – Hosting  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🚀 Getting Started  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Follow these steps to set up the project locally:  
 
-## Learn More
+### Prerequisites  
+Make sure you have **Node.js** (which includes npm) installed.  
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+node -v
+npm -v
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Clone the repo
 
-### Analyzing the Bundle Size
+ - git clone https://github.com/Shivam56291/basic-workout-timer-react.git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+Navigate into the project folder
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- cd basic-workout-timer-react
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Install dependencies
 
-### Deployment
+- npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+Start the development server
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- npm start
+
+
+Your app will now be running at http://localhost:3000 . 🎉
+
+📂 Project Structure
+basic-workout-timer-react/
+│
+├── public/                # Static assets
+├── src/
+│   ├── App.js             # Main app component
+│   ├── Calculator.js      # Workout logic + duration calculation
+│   ├── ToggleSounds.js    # Sound toggle button
+│   ├── ClickSound.m4a     # Sound effect
+│   ├── index.js           # Entry point
+│   └── index.css          # Styling
+│
+└── package.json
